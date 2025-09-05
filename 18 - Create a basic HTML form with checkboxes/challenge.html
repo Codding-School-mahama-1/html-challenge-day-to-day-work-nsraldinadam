@@ -4,6 +4,34 @@
     <title>18 - Create a basic HTML form with checkboxes</title>
   </head>
   <body>
+    <form action="/submit" method="get">
+  <fieldset>
+    <legend>Select your favorite fruits:</legend>
+
+    <label>
+      <input type="checkbox" name="fruits[]" value="apple">
+      Apple
+    </label><br>
+
+    <label>
+      <input type="checkbox" name="fruits[]" value="banana">
+      Banana
+    </label><br>
+
+    <label>
+      <input type="checkbox" name="fruits[]" value="cherry">
+      Cherry
+    </label><br>
+
+    <label>
+      <input type="checkbox" name="fruits[]" value="date">
+      Date
+    </label>
+  </fieldset>
+
+  <button type="submit">Submit</button>
+</form>
+Explanation:
     <!-- Create an HTML form that allows users to select one or more options from a group of checkboxes. -->
   </body>
 </html>
