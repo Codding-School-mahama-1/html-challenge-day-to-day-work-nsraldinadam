@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+<<<<<<< HEAD
   <head>
     <title>06 - Create a HTML form</title>
   </head>
@@ -92,7 +93,105 @@
     <!-- Repeat steps 2-4 to add as many input fields as you need.  -->
     <!-- Add a button tag inside the form tag and set the type attribute to submit.  -->
     <!-- Add text between the opening and closing button tags that will be displayed on the button. -->
+=======
+>>>>>>> dba4e26 (this is)
 
-    <!-- READUP: HTML forms https://blog.codeskills.dev/html-forms -->
-  </body>
+<head>
+  <title>06 - Create a HTML form</title>
+</head>
+
+<body>
+  <form>
+    <fieldset>
+      <legend>Basic</legend>
+      <label for="">Text(Name)</label>
+      <input placeholder="FULL name"> <br><br>
+      <label for="">Email:</label>
+      <input placeholder="user@example.com"><br><br>
+      <label for="">password:</label>
+      <input placeholder="ATleast 8 characters"><br><br>
+      <label for="">Telephone</label>
+      <input placeholder="+250 7xx xxx xxx"><br><br>
+      <label for="">Search</label>
+      <input placeholder="Search term"><br><br>
+      <label for="">URL</label>
+      <input placeholder="https://example.com"><br><br>
+      </fieldset>
+  
+  <fieldset>
+    <legend>Numbers & sliders</legend>
+    <label for="">Number:</label>
+    <input placeholder="0" ><br><br>
+    <label for="">Range :(o-0)</label>
+    <input type="range" value="o" aria-valuemax="10"> 5 <br><br>
+    </fieldset> 
+    <fieldset>
+      <legend>Date & Time</legend>
+      <label for="">Date:</label>
+      <input placeholder="mm/dd yyy"><br><br>
+      <label for="">Time:</label>
+      <input placeholder="--:-- --"><br><br>
+      <label for="">Datetime (Local):</label>
+      <input placeholder="mm / dd yyy"><br><br>
+      <label for="">Month:</label>
+      <input placeholder="-------- ----"><br><br>
+      <label for="">Week</label>
+      <input placeholder="Week --, ----"><br><br>
+      </fieldset>
+    <Fieldset>
+      <legend>Choices</legend>
+      <label >Radio (plan):</label>
+      <input type="radio"> Basic<checked> 
+        <input type="radio">pro 
+        <input type="radio"> Enterperprise <br><br>
+        <label for="">checkboxe:</label>checkboxe:
+        <input type="radio">Subscribe to updates 
+        <input type="radio">I agree to rhe rerms<br><br>
+        <label >nSelect(not input, but commo):</label>
+        <input type="submit" value="Choose"><br><br>
+        </Fieldset>
+        <fieldset>
+          <legend>Text Area & Dtalists</legend>
+          <label for="">Text Area:</label>
+          <textarea placeholder="write somethig" rows="6" cols="50" id=""></textarea><br><br>
+          <label for="">Text with Datalists(Country):</label>
+          <input type="text" placeholder="start typing" id="">
+          </fieldset>
+          <fieldset>
+            <legend>Color & Files</legend>
+            <label for="">Color</label>
+            <input type="color"><br><br>
+            <label for="">File Upload:</label>
+            <input type="submit" value="choose files" name="" id="">No file chosen
+          </fieldset>
+          <fieldset>
+            <legend>Hidden & Readoly</legend>
+            <label for="">Read-only:</label>
+            <input type="text" value="INV-000123"><br><br>
+            <label for="">Disabled:</label>
+            <input type="text" placeholder="Disabled example">
+            </fieldset>
+            <fieldset>
+              <legend>Button</legend>
+              <input type="submit">
+              <input type="Reset">
+              <input type="submit" value="Plain Button">
+            </fieldset>
+
+          
+        </form>
+
+  
+  <!-- Add a form tag to your HTML page.  -->
+  <!-- Inside the form tag, add a label tag and set the for attribute to a unique name for your input field.  -->
+  <!-- Inside the label tag, add an input tag and set the type attribute to the type of input
+    field you want to create (e.g. text, email, password, etc.).  -->
+  <!-- Add a name attribute to the input tag and set it to a unique name for your input field. -->
+  <!-- Repeat steps 2-4 to add as many input fields as you need.  -->
+  <!-- Add a button tag inside the form tag and set the type attribute to submit.  -->
+  <!-- Add text between the opening and closing button tags that will be displayed on the button. -->
+
+  <!-- READUP: HTML forms https://blog.codeskills.dev/html-forms -->
+</body>
+
 </html>
